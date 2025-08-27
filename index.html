@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Photo Gallery</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h2>My Photo Gallery</h2>
+    
+    <div id="gambar">
+        Arahkan kursor ke gambar di bawah ini untuk ditampilkan di sini.
+    </div>
+    
+    <div class="gallery">
+    <img class="preview" 
+         src="./image/bali.jpg" 
+         alt="Pantai di Bali"
+         onmouseover="upDate(this)" 
+         onmouseout="unDo()">
+             
+    <img class="preview" 
+         src="./image/candi-borobudur.jpg" 
+         alt="Candi Borobudur di Magelang"
+         onmouseover="upDate(this)" 
+         onmouseout="unDo()">
+             
+    <img class="preview" 
+         src="./image/gunung-bromo.jpg" 
+         alt="Gunung Bromo di Jawa Timur"
+         onmouseover="upDate(this)" 
+         onmouseout="unDo()">
+             
+    <img class="preview" 
+         src="./image/raja-ampat.webp" 
+         alt="Kepulauan Raja Ampat di Papua"
+         onmouseover="upDate(this)" 
+         onmouseout="unDo()">
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
